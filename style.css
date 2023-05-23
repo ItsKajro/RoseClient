@@ -1,0 +1,152 @@
+font-family:{
+  'Rubik', sans-serif;
+}
+
+
+header {
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: #ffbff1;
+    padding: 15px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #adadad;
+  }
+
+
+
+
+.container {
+    position: relative;
+    width: 1468x;
+    height: 450px;
+    background-image: url("assets/images/Background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  .box {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 255px;
+    height: 260px;
+    background-image: url("RCico.png");
+    animation: slide-up 1s ease-in-out forwards;
+}
+
+  
+  
+  @keyframes slide-up {
+    0% {
+      transform: translate(-50%, 100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translate(-50%, 0);
+      opacity: 1;
+    }
+  }
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    margin-top: 30px;
+  }
+
+  .gallery-item {
+    flex: 0 0 25%; /* Adjust the width as needed */
+  }
+
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+  }
+  .social-media {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .social-media-item {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+  }
+
+  .social-media-item img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .download-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .download-image {
+    width: 450px;
+    height: auto;
+  }
+
+
+  .section {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .section-image {
+    width: 500px;
+    height: 150px;
+    margin-right: 20px;
+  }
+
+  .section-description {
+    flex-grow: 1;
+    color:#ffffff
+  }
+
+  .section-text {
+    font-weight: bold;
+    color:#ffffff
+  }
