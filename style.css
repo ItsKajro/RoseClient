@@ -59,7 +59,7 @@ header {
     transform: translateX(-50%);
     width: 255px;
     height: 260px;
-    background-image: url("RCico.png");
+    background-image: url("assets/images/PrideRCico.png");
     animation: slide-up 1s ease-in-out forwards;
 }
 
